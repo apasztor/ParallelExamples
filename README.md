@@ -14,10 +14,9 @@ Some examples include some helper scripts for visualization, data analysis. Thes
 bash shell scripts, python scripts or Jupyter notebooks.
 
 ## OpenMP Examples
- 1. Pi by area
- 2. Pi by Monte Carlo
+ 1. Hello OpenMP
+ 2. Pi by Area
+ 3. Pi by Monte Carlo
 
 ## MPI Examples
- 1. Parallel Matrix Times Vector
- 2. Parallel Matrix Times Matrix
- 3. Parallel Matrix 
+ 1. Hello MPI
