@@ -15,8 +15,9 @@ bash shell scripts, python scripts or Jupyter notebooks.
 
 ## OpenMP Examples
  1. Hello OpenMP
- 2. Pi by Area
- 3. Pi by Monte Carlo
 
 ## MPI Examples
  1. Hello MPI
+ 2. Parallel sum
+ 3. Parallel dot product
+ 4. Parallel matrix times vector
