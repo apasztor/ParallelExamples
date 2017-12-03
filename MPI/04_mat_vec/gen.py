@@ -2,9 +2,10 @@ import numpy as np
 import sys
 
 n=int(sys.argv[1])
+m=int(sys.argv[2])
 
-M=np.random.rand(n,n)
-v=np.random.rand(n)
+M=np.random.rand(n,m)
+v=np.random.rand(m)
 Mv=np.dot(M,v)
  
 np.savetxt('M.txt' ,M, delimiter='\n')
