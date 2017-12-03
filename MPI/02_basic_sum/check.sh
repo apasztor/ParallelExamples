@@ -1,4 +1,4 @@
-for size in 201 4321 16000 30001; do
+for size in 2001 43201 160000 300001; do
     echo "------------------------------ global size: $size -------------------------------------------"
     echo -e "import random\nfor i in range(${size}): print(random.uniform(0,1))" | python3 > input.dat
     
