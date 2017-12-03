@@ -27,9 +27,7 @@ void read_array(double ** local_x, int global_n, int rank, int num_procs, char i
         for(int iproc=0; iproc<num_procs; iproc++){
             int local_n = get_local_n(global_n,iproc,num_procs);
             for(int iloc=0; iloc<local_n; iloc++){
-                double temp;
-                fscanf(infile, "%lf\n", &temp);
-                (*local_x)[iloc] = temp;
+                fscanf(infile, "%lf\n", (*local_x)+iloc);
             }
             if(iproc < num_procs-1){
                 int tag=iproc;
